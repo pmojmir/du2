@@ -1,0 +1,27 @@
+METADATA
+DBC,STAN,TOK,POB,CHP,A,UTM_X,UTM_Y,PCR,SOUV
+
+187500,Hrádek,Klabava,PL,1-11-01-0200-0-00-30,158.12,403563.70,5507714.09,2001/11,N
+
+chybìjící data:
+01.08.2002-31.03.2004
+
+DBC...databázové èíslo
+STAN...název vodomìrné stanice (profilu)
+TOK...název toku
+POB...poboèka ÈHMÚ spravující stanici
+CHP...èíslo hydrologického poøadí
+A...plocha povodí ke stanici v km2
+UTM_X...x-ová souøadnice polohy stanice v systému WGS 1984 UTM Zone 33N
+UTM_Y...y-ová souøadnice polohy stanice v systému WGS 1984 UTM Zone 33N
+PCR...poèátek èasové øady (rok/mìsíc)
+SOUV...souvislá (nepøerušená) øada v databázi ano (A) / ne (N)
+
+DATOVÝ SOUBOR
+Jednotlivé sloupce postupnì obsahují:
+S1...databázové èíslo
+S2...oznaèení typu dat
+S3...rok
+S4...mìsíc
+S5...den
+S6...prùmìrný denní prùtok (m3/s)
