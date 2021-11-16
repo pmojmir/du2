@@ -1,3 +1,4 @@
+#Synchronizovat zmanená nahrát na github
 #Úvod
 import csv
 
