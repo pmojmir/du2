@@ -27,7 +27,7 @@ def kontrola(vstup):
 print(kontrola(vstup))
 
 """
-Funkce zkontroluje vstupy kódy
+Funkce zkontroluje vstupy 
 
 Argumenty: 
 Vstup -- vstupní CSV soubor
