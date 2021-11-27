@@ -19,7 +19,7 @@ def kontrola(vstup):
                     print((f"{row[4]}.{row[3]}.{row[2]} chybná hodnota v dnu"))
                 elif int(row[3]) > 12 or int(row[3]) <= 0:
                     print((f"{row[4]}.{row[3]}.{row[2]} chybná hodnota v měsíci"))
-                elif int(row[2]) > 2021 or int(row[2]) < 1980:
+                elif int(row[2]) > 2021 or int(row[2]) < 1900: #předpokládám, že data nebyla automatizovaně odečítána před rokem 1900
                     print((f"{row[4]}.{row[3]}.{row[2]} chybná hodnota v roce"))
             except ValueError:
                 pass       
