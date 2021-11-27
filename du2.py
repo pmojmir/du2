@@ -1,7 +1,10 @@
-import csv #Načtení CSV modulu 
+#Načtení CSV modulu 
+import csv 
 
-#Vstupní a výstupní data 
+#Skript k programu průměrné sedmidenní a roční průtoky, vstupní soubor je zadán "vstup.csv"
 vstup = "vstup.csv"
+
+#Výstupní soubor, umožnuje pojmenování 
 vystup7 = "vystup_7dni.csv"
 vystuprok = "vystup_rok.csv"
 
